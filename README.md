@@ -2,6 +2,8 @@
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
 
+# [![show-directory](https://github.com/Elena-1710/hexlet-ci-app/actions/workflows/node.yaml/badge.svg)](https://github.com/Elena-1710/hexlet-ci-app/actions/workflows/node.yaml)
+
 ## System requirements
 
 * NodeJS >= 18
