@@ -14,10 +14,7 @@ jobs:
     runs-on: ubuntu-latest  # Используем последнюю версию Ubuntu
 
     steps:
-      # Шаг 1: Клонирование репозитория
-      - name: Checkout code
-        uses: actions/checkout@v4
-
+    
       # Шаг 2: Установка Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -31,3 +28,9 @@ jobs:
       # Шаг 4: Запуск тестов
       - name: Run tests
         run: npm test
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@v4
+
+      - name: Print Hello from Hexlet
+        uses: hexlet-components/hello-from-hexlet-action@release
